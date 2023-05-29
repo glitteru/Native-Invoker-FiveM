@@ -30,7 +30,7 @@ DWORD WINAPI MainThread(HMODULE hModule) {
 
     Sleep(2000);
 
-    // IF YOU WANT A CUSTOM ADDRESS //
+    // IF YOU WANT A PERSONALIZED ADDRESS, USE THE LINE BELOW //
     // DWORD moduleBase = (DWORD)GetModuleHandle("MODULE_NAME.exe");
 
     // FEATURES //
