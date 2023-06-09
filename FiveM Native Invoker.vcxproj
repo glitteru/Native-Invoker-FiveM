@@ -141,11 +141,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="Helper.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Helper.h" />
-    <ClInclude Include="Invoker.h" />
+    <ClInclude Include="Invoker\Invoker.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
